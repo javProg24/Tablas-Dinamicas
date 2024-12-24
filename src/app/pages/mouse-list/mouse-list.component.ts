@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './mouse-list.component.html',
   styleUrl: './mouse-list.component.css'
 })
-export class MouseListComponent {
+export default class MouseListComponent {
 
 }

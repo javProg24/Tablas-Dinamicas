@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './keyboard-list.component.html',
   styleUrl: './keyboard-list.component.css'
 })
-export class KeyboardListComponent {
+export default class KeyboardListComponent {
 
 }
