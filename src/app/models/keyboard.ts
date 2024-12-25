@@ -1,13 +1,13 @@
 export interface IKeyboard {
     nombre:string;
-    color:string;
-    category:string;
-    price:number;
+    Color:string;
+    Category:string;
+    Price:number;
 }
 
 export class keyboardResponse{
     nombre='';
-    color='';
-    category='';
-    price=0;
+    Color='';
+    Category='';
+    Price=0;
 }

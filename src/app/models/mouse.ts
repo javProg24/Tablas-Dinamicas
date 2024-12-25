@@ -7,5 +7,5 @@ export interface IMouse{
 export class MouseResponse{
     nombre='';
     precio=0;
-    rgb='';
+    RGB='';
 }
