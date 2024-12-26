@@ -1,9 +1,11 @@
 import { Component, EventEmitter, Input, input, Output } from '@angular/core';
 import { Accion } from '../../models/tabla-columna';
+import { MatIconModule } from '@angular/material/icon';
+import { NativeDateModule } from '@angular/material/core';
 
 @Component({
   selector: 'app-tabla-data',
-  imports: [],
+  imports: [MatIconModule, NativeDateModule],
   templateUrl: './tabla-data.component.html',
   styleUrl: './tabla-data.component.css'
 })

@@ -23,8 +23,22 @@
                             </td>
                         }
                         <td class="px-4 text-left">
-                            <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline pr-7" (click)="onAction('Editar',data)">Edit</a>
-                            <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" (click)="onAction('Eliminar',data)">Delete</a>
+                            <!-- <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline pr-7" 
+                            (click)="onAction('Editar',data)">
+                                Edit
+                            </a>
+                            <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" 
+                            (click)="onAction('Eliminar',data)">
+                                Delete
+                            </a> -->
+                            <button class="font-medium text-blue-600 dark:text-blue-500 hover:underline pr-7"
+                            mat-icon-button color="primary" (click)="onAction('Editar',data)">
+                                <mat-icon>edit</mat-icon>
+                            </button>
+                            <button class="font-medium text-blue-600 dark:text-blue-500 hover:underline pr-7"
+                            mat-icon-button color="primary" (click)="onAction('Eliminar',data)">
+                                <mat-icon>delete</mat-icon>
+                            </button>
                         </td>
                     </tr>
                 }

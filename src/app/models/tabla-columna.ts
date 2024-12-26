@@ -1,4 +1,4 @@
-import { keyboardResponse } from "./keyboard";
+import { keyboardResponse as keyboardResponse } from "./keyboard";
 import { MouseResponse as mouseResponse } from "./mouse";
 
 export interface Accion<T = any> {
