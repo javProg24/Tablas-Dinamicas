@@ -5,7 +5,8 @@ export interface Accion<T = any> {
     accion: string;
     fila?: T;
 }
-
+//getEntityPropiedades('keyboard') => 
+// ['nombre','Color','Category','Price']
 export const getEntityPropiedades = (entidad:string):Array<any>=> {
     let resultados: any= [];
     let clase:any;

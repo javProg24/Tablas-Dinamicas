@@ -19,6 +19,8 @@ export default class KeyboardListComponent implements OnInit{
   title:string='Keyboards';
   constructor(private productService:ProductService) { }
   ngOnInit(): void {
+    // aqui sacamos las columnas transformando el modelo de datos de keyboardResponse
+    // en un array de strings y pasandolo a la tabla
     this.columnas = getEntityPropiedades('keyboard');
     this.productService.obtenerKeyBoardList().subscribe((data)=>{
       this.keyboardList = data;
