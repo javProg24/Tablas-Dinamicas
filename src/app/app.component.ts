@@ -9,7 +9,7 @@ interface SideNavToogle{
 }
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SidenavComponent, BodyComponent],
+  imports: [SidenavComponent, BodyComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
